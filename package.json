@@ -1,0 +1,21 @@
+{
+  "name": "tobmi-watchface",
+  "version": "1.0.0",
+  "description": "tobi simple watchface",
+  "main": "color/app.js",
+  "scripts": {
+    "dev": "cd ./src/color && zeus dev",
+    "start": "cd ./src/color && zeus dev",
+    "build": "cd ./src/color && zeus build && node ../../extract.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tobias Ulrich",
+  "license": "ISC",
+  "devDependencies": {
+    "yauzl": "^2.10.0",
+    "yazl": "^2.5.1",
+    "zeppos-device-types-v1": "^1.0.9"
+  },
+  "dependencies": {
+  }
+}
