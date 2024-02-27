@@ -1,6 +1,6 @@
-import './shared/logger'
+import '../shared/logger'
 
-const logger = Logger.getLogger('tobimi')
+const logger = Logger.getLogger('tobi-test')
 
 App({
   globalData: {},
