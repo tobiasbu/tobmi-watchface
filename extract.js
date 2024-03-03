@@ -7,7 +7,7 @@ const yauzl = require("yauzl");
 
 const APP_ID = 'MjAyNDAzMDMxOTU4NTYuemFi';
 const DIST_DIR = './dist/';
-const OUTPUT_DIR = path.join(DIST_DIR, "output/")
+const OUTPUT_DIR = path.join(__dirname, "./output")
 const TEMP_DIR = path.join(DIST_DIR, 'temp/')
 
 /**
