@@ -154,6 +154,7 @@ export default function watchFace(config) {
         month_unit_tc: "dd-mm/sep.png",
 
         day_follow: true,
+        day_zero: 1,
         day_sc_array: imgDateArr,
         day_tc_array: imgDateArr,
         day_en_array: imgDateArr,
